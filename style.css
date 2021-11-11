@@ -118,6 +118,9 @@ button[disabled] {
   overflow: hidden;
 }
 
+/* REQUIREMENT: "...user interface that is responsive, ensuring that it adapts to multiple screen sizes" 
+I believe the media queries below satisfy this requirement.
+*/
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;

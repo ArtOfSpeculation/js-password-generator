@@ -13,9 +13,14 @@ You will be asked:
     ii. upper case letters
     iii. numbers
     iv. special symbols
-### REQUIREMENT: Passwords must contain at least ONE TYPE of character(s)
+
+    REQUIREMENT: Passwords must contain at least ONE TYPE of character(s)
 
 2.) How long do you want your password to be? 
-### REQUIREMENT: Passwords must be between 8 and 128 characters in length.
+
+    REQUIREMENT: Passwords must be between 8 and 128 characters in length.
+
+## SCREENSHOT
+![Alt text](./Screenshot.png "Optional Title")
 
 ENJOY!
