@@ -87,17 +87,14 @@ var getValidCharacters = function() {
 };
 
 var constructPassword = function() {
-  var passwordValues = [];
+  var passwordValues = []; // Ensure array is empty to start
   for(i = 0; i < passwordLength; i++) {
     console.log('pw length: ', passwordLength);
-    var randomValidChar = passwordArray[Math.floor(Math.random() * passwordArray.length)];
-    console.log('value ', i, ' is ',randomValidChar);
-    passwordValues.push(randomValidChar);
-    console.log('pw:', passwordValues);
+    var randomValidChar = passwordArray[Math.floor(Math.random() * passwordArray.length)]; // Selecting a random character from VALID character set
+    passwordValues.push(randomValidChar); // Adding random value to password array
   } 
   return passwordValues.toString();
 }
-
 
 // Generate the Password!
 var generatePassword = function() {
@@ -106,7 +103,6 @@ var generatePassword = function() {
   var generatedPassword = constructPassword(); // Construct a PASSWORD from the set of VALID characters
   return generatedPassword;
 };
-
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
