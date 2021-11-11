@@ -93,7 +93,7 @@ var constructPassword = function() {
     var randomValidChar = passwordArray[Math.floor(Math.random() * passwordArray.length)]; // Selecting a random character from VALID character set
     passwordValues.push(randomValidChar); // Adding random value to password array
   } 
-  return passwordValues.toString();
+  return passwordValues.join(""); // Covert the Array to a String with each value separated by "" instead of ","
 }
 
 // Generate the Password!
