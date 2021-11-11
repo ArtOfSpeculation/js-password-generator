@@ -4,7 +4,7 @@
 This **Password Generator** makes it easy to create a randomized password with various degrees of complexity.
 
 ## USAGE
-To generate a password, simply click on the **Generate Password** button and respond to the prompts.
+To generate a password, visit https://artofspeculation.github.io/js-password-generator/, click on the **Generate Password** button and respond to the prompts.
 
 You will be asked:
 
